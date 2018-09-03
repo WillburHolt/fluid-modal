@@ -3,7 +3,7 @@
 $( document ).ready(function() {
 $(".modal-container").hide();
 
-// Change .btn-primary to the modal's CSS selector.
+// Change #modal-open-link to the modal button's CSS selector.
 
 $("#modal-open-link").click(function() {
         $(".modal-container").show();
