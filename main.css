@@ -1,0 +1,56 @@
+.modal-container {
+    background:#fff;
+    z-index:2;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:rgba(0,0,0,0.5);
+    animation: fadeInOverlay 300ms ease;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.modal-container .modal {
+    width:500px;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    margin-top:5%!important;
+    animation: fadeInFlyInModal 300ms ease;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    background:#fff;
+}
+.modal .modal-header {
+    background-color:#2F1818;
+    padding: 2rem;
+    display:flex;
+    justify-content: space-between;
+}
+ .modal .modal-header h2 {
+    font-size:30px;
+    color:#fff;
+    width:100%;
+    display:flex;
+}
+.modal .modal-header .modal-close {
+    height: 25px;
+    display:flex;
+    width: 10%!important;
+    cursor:pointer;
+}
+.modal .modal-header .modal-close svg {
+    fill:#fff;
+}
+.modal .modal-content {
+    background:#fff;
+    min-height:400px;
+}
+
+@-moz-keyframes fadeInFlyInModal{0%{opacity:0;transform:translate(-50%,-2.8125rem)}100%{opacity:1;transform:translate(-50%,0)}}@-webkit-keyframes fadeInFlyInModal{0%{opacity:0;transform:translate(-50%,-2.8125rem)}100%{opacity:1;transform:translate(-50%,0)}}@-o-keyframes fadeInFlyInModal{0%{opacity:0;transform:translate(-50%,-2.8125rem)}100%{opacity:1;transform:translate(-50%,0)}}@keyframes fadeInFlyInModal{0%{opacity:0;transform:translate(-50%,-2.8125rem)}100%{opacity:1;transform:translate(-50%,0)}}@-moz-keyframes fadeOutFlyOutModal{0%{opacity:1;transform:translate(-50%,0)}100%{opacity:0;transform:translate(-50%,-2.8125rem)}}@-webkit-keyframes fadeOutFlyOutModal{0%{opacity:1;transform:translate(-50%,0)}100%{opacity:0;transform:translate(-50%,-2.8125rem)}}@-o-keyframes fadeOutFlyOutModal{0%{opacity:1;transform:translate(-50%,0)}100%{opacity:0;transform:translate(-50%,-2.8125rem)}
+}@keyframes fadeOutFlyOutModal{0%{opacity:1;transform:translate(-50%,0)}100%{opacity:0;transform:translate(-50%,-2.8125rem)}}@-moz-keyframes fadeInModal{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes fadeInModal{0%{opacity:0}100%{opacity:1}}@-o-keyframes fadeInModal{0%{opacity:0}100%{opacity:1}}@keyframes fadeInModal{0%{opacity:0}100%{opacity:1}}@-moz-keyframes fadeOutModal{0%{opacity:1}100%{opacity:0}}@-webkit-keyframes fadeOutModal{0%{opacity:1}100%{opacity:0}}@-o-keyframes fadeOutModal{0%{opacity:1}100%{opacity:0}}@keyframes fadeOutModal{0%{opacity:1}100%{opacity:0}}
