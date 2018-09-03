@@ -5,7 +5,7 @@ $(".modal-container").hide();
 
 // Change .btn-primary to the modal's CSS selector.
 
-$(".btn-primary").click(function() {
+$("#modal-open-link").click(function() {
         $(".modal-container").show();
 });
 
